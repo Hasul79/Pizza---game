@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Niconne|Radley" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizza game</title>
+</head>
+<body>
+<div class="choose">
+    <center><h1>PIZZA MAKER</h1></center>
+   <center> <p class="txt "id="txt">Choose the size:</p></center>
+    <button type="button" id="sm" class="sm" onclick="chngesm()">Small</button>
+    <button type="button" id="med" class="med" onclick="chngemed()">Medium</button>
+    <button type="button" id="lg" class="lg" onclick="chngelg()">Large</button>
+    <button type="button" id="yes" class="yes" onclick="yes()">YES</button>
+    <button type="button" id="no" class="no" onclick="no()">NO</button>
+    <button type="button" id="s1" class="sau1" onclick="tom()">Tomato Sauce</button><br>
+    <button type="button" id="s2" class="sau2" onclick="mus()">Cream Sauce</button>
+    <button type="button" id="y1" class="y1" onclick="cheese()">Yes</button>
+    <button type="button" id="n1" class="n1" onclick="nocheese()">No</button>
+    <form id="topp" >
+        <input type="checkbox" class="pepperoni" id="pepperoni">Pepperoni<br>
+        <input type="checkbox" class="olives" id="olives">Olives<br>
+        <input type="checkbox" class="pepper" id="pepper">Green Pepper<br>
+        <input type="checkbox" class="mushroom" id="mushroom">Mushroom<br>
+        <button type="button" class="addb" onclick="addtop()">ADD</button>
+    </form>
+    <button type="button" class="four" id="four" onclick="f()">Four</button>
+    <button type="button" class="eight" id="eight" onclick="e()">Eight</button>
+</div>
+<div class="pizza">
+    <div class="base" id="base">
+        <div class="tomato" id="t"></div>
+        <div class="cheese" id="che"></div>
+        <img class="t10" id="o1" src="https://content.mycutegraphics.com/graphics/food/black-olive-slice.png">
+        <img class="t11" id="o2" src="https://content.mycutegraphics.com/graphics/food/black-olive-slice.png">
+        <img class="t12" id="o3"  src="https://content.mycutegraphics.com/graphics/food/black-olive-slice.png">
+        <img class="t13" id="o4" src="https://content.mycutegraphics.com/graphics/food/black-olive-slice.png">
+        <img class="t14" id="o5" src="https://content.mycutegraphics.com/graphics/food/black-olive-slice.png">
+        <img class="t15" id="o6" src="https://content.mycutegraphics.com/graphics/food/black-olive-slice.png">
+        <div class="t20" id="pp1"></div>
+        <div class="t21" id="pp2"></div>
+        <div class="t22" id="pp3"></div>
+        <div class="t23" id="pp4"></div>
+        <div class="t24" id="pp5"></div>
+        <img class="t30" id="m1" src="https://content.mycutegraphics.com/graphics/food/mushroom-slice.png">
+        <img class="t31" id="m2" src="https://content.mycutegraphics.com/graphics/food/mushroom-slice.png">
+        <img class="t32" id="m3" src="https://content.mycutegraphics.com/graphics/food/mushroom-slice.png">
+        <img class="t33" id="m4" src="https://content.mycutegraphics.com/graphics/food/mushroom-slice.png">
+        <img class="t34" id="m5" src="https://content.mycutegraphics.com/graphics/food/mushroom-slice.png">
+        <img class="t40" id="p1" src="http://www.clker.com/cliparts/6/j/a/H/z/L/totetude-green-pepper-pizza-topping-hi.png">
+        <img class="t41" id="p2" src="http://www.clker.com/cliparts/6/j/a/H/z/L/totetude-green-pepper-pizza-topping-hi.png">
+        <img class="t42" id="p3" src="http://www.clker.com/cliparts/6/j/a/H/z/L/totetude-green-pepper-pizza-topping-hi.png">
+        <img class="t43" id="p4" src="http://www.clker.com/cliparts/6/j/a/H/z/L/totetude-green-pepper-pizza-topping-hi.png">
+        <img class="t44" id="p5" src="http://www.clker.com/cliparts/6/j/a/H/z/L/totetude-green-pepper-pizza-topping-hi.png">
+        <img class="t45" id="p6" src="http://www.clker.com/cliparts/6/j/a/H/z/L/totetude-green-pepper-pizza-topping-hi.png">
+        <img class="t46" id="p7" src="http://www.clker.com/cliparts/6/j/a/H/z/L/totetude-green-pepper-pizza-topping-hi.png">
+        <img class="t47" id="p8" src="http://www.clker.com/cliparts/6/j/a/H/z/L/totetude-green-pepper-pizza-topping-hi.png">
+        <div class="cut1" id="cut1"></div>   
+        <div class="cut2" id="cut2"></div>   
+        <div class="cut3" id="cut3"></div>   
+        <div class="cut4" id="cut4"></div>       
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
